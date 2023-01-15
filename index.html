@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cp7 Toko</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+      <div class="hero">
+      <h2 class="heading">Cp7 Merch</h2>
+      <p class="sub-heading">Belanja Disini Anda Keren Yang Lain Pengen</p>
+      </div>
+      <div class="features features-1">
+        <h4 class="price">IDR 100K</h4>
+        <p class="item">Kaos Polos</p>
+      </div>
+      <div class="features features-2">
+        <h4 class="price">IDR 349</h4>
+        <p class="item">Celana Levis</p>
+      </div>
+      </header>
+      <nav class="menu">
+       <div class="menu-toggle">
+           <input type="checkbox" />
+           <span></span>
+           <span></span>
+           <span></span>
+         </div>
+           
+        <div class="brand">
+          <h1>T-Shirt Cp7</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Product</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+    <section class="services">
+      <div class="service">
+        <div class="icon"><img src="img/cndr1.jpg" /></div>
+        <h3>Spesial Menu</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi tempore, officia recusandae repellat tenetur! Veritatis.</p>
+      </div>
+      <div class="service">
+        <div class="icon"><img src="img/cdr2.jpg" /></div>
+        <h3>Spesial menu</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur obcaecati eligendi doloribus est qui corporis!</p>
+      </div>
+      <div class="service">
+        <div class="icon"><img src="img/cndr3.jpg" /></div>
+        <h3>Spesial Menu</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci nam aut enim nobis quod id.</p>
+      </div>
+      <div class="service">
+        <div class="icon"><img src="img/cndr4.jpg" /></div>
+        <h3>Spesial Menu</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore temporibus corporis, ex at atque possimus!</p>
+      </div>
+    </section>
+    
+    <section class="gallery">
+      <h2>Gallery</h2>
+      <img src="img/glr1.jpg" />
+      <img src="img/glr2.jpg" />
+      <img src="img/glr3.jpg" />
+      <img src="img/glr4.jpg" />
+      <img src="img/glr5.jpg" />
+      <img src="img/glr6.jpg" />
+      <img src="img/glr7.jpg" />
+      <img src="img/glr8.jpg" />
+      <img src="img/glr9.jpg" />
+      <img src="img/glr10.jpg" />
+    </section>
+    <script>
+    const menuToggle = document.querySelector('.menu-toggle input');
+    const nav = document.querySelector('nav ul');
+
+    menuToggle.addEventListener('click',function(){
+    nav.classList.toggle('slide');
+});
+    </script>
+  </body>
+</html>
